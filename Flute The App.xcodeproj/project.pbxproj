@@ -8,21 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		681ACAB12EC9C06900EEAAC8 /* Flute_The_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681ACAB02EC9C06900EEAAC8 /* Flute_The_AppApp.swift */; };
-		681ACAB32EC9C06900EEAAC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681ACAB22EC9C06900EEAAC8 /* ContentView.swift */; };
+		681ACAB32EC9C06900EEAAC8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681ACAB22EC9C06900EEAAC8 /* LoginView.swift */; };
 		681ACAB52EC9C06B00EEAAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681ACAB42EC9C06B00EEAAC8 /* Assets.xcassets */; };
 		681ACAB82EC9C06B00EEAAC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681ACAB72EC9C06B00EEAAC8 /* Preview Assets.xcassets */; };
 		681ACABA2EC9C06B00EEAAC8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681ACAB92EC9C06B00EEAAC8 /* Persistence.swift */; };
 		681ACABD2EC9C06B00EEAAC8 /* Flute_The_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 681ACABB2EC9C06B00EEAAC8 /* Flute_The_App.xcdatamodeld */; };
+		681ACAC42EC9DEDE00EEAAC8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681ACAC32EC9DEDD00EEAAC8 /* Constants.swift */; };
+		681ACAC62EC9E58900EEAAC8 /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681ACAC52EC9E58900EEAAC8 /* OTPVerificationView.swift */; };
+		681ACAC82ECCC7E800EEAAC8 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681ACAC72ECCC7E800EEAAC8 /* RegistrationView.swift */; };
+		681ACACA2ECCCEF800EEAAC8 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681ACAC92ECCCEF800EEAAC8 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		681ACAAD2EC9C06900EEAAC8 /* Flute The App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flute The App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		681ACAB02EC9C06900EEAAC8 /* Flute_The_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flute_The_AppApp.swift; sourceTree = "<group>"; };
-		681ACAB22EC9C06900EEAAC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		681ACAB22EC9C06900EEAAC8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		681ACAB42EC9C06B00EEAAC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		681ACAB72EC9C06B00EEAAC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		681ACAB92EC9C06B00EEAAC8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		681ACABC2EC9C06B00EEAAC8 /* Flute_The_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flute_The_App.xcdatamodel; sourceTree = "<group>"; };
+		681ACAC32EC9DEDD00EEAAC8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		681ACAC52EC9E58900EEAAC8 /* OTPVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
+		681ACAC72ECCC7E800EEAAC8 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		681ACAC92ECCCEF800EEAAC8 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				681ACAB02EC9C06900EEAAC8 /* Flute_The_AppApp.swift */,
-				681ACAB22EC9C06900EEAAC8 /* ContentView.swift */,
+				681ACAB22EC9C06900EEAAC8 /* LoginView.swift */,
+				681ACAC52EC9E58900EEAAC8 /* OTPVerificationView.swift */,
+				681ACAC72ECCC7E800EEAAC8 /* RegistrationView.swift */,
+				681ACAC92ECCCEF800EEAAC8 /* MainTabView.swift */,
+				681ACAC32EC9DEDD00EEAAC8 /* Constants.swift */,
 				681ACAB42EC9C06B00EEAAC8 /* Assets.xcassets */,
 				681ACAB92EC9C06B00EEAAC8 /* Persistence.swift */,
 				681ACABB2EC9C06B00EEAAC8 /* Flute_The_App.xcdatamodeld */,
@@ -143,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681ACAC42EC9DEDE00EEAAC8 /* Constants.swift in Sources */,
+				681ACAC62EC9E58900EEAAC8 /* OTPVerificationView.swift in Sources */,
+				681ACAC82ECCC7E800EEAAC8 /* RegistrationView.swift in Sources */,
 				681ACABA2EC9C06B00EEAAC8 /* Persistence.swift in Sources */,
-				681ACAB32EC9C06900EEAAC8 /* ContentView.swift in Sources */,
+				681ACAB32EC9C06900EEAAC8 /* LoginView.swift in Sources */,
+				681ACACA2ECCCEF800EEAAC8 /* MainTabView.swift in Sources */,
 				681ACABD2EC9C06B00EEAAC8 /* Flute_The_App.xcdatamodeld in Sources */,
 				681ACAB12EC9C06900EEAAC8 /* Flute_The_AppApp.swift in Sources */,
 			);
