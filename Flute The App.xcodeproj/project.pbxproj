@@ -17,6 +17,12 @@
 		681ACAC62EC9E58900EEAAC8 /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681ACAC52EC9E58900EEAAC8 /* OTPVerificationView.swift */; };
 		681ACAC82ECCC7E800EEAAC8 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681ACAC72ECCC7E800EEAAC8 /* RegistrationView.swift */; };
 		681ACACA2ECCCEF800EEAAC8 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681ACAC92ECCCEF800EEAAC8 /* MainTabView.swift */; };
+		687E53712ECE272E00A7032D /* OrderHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E53702ECE272E00A7032D /* OrderHistoryView.swift */; };
+		687E53732ECE288E00A7032D /* GiftHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E53722ECE288D00A7032D /* GiftHistoryView.swift */; };
+		687E53752ECE293E00A7032D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E53742ECE293E00A7032D /* HomeView.swift */; };
+		687E53772ECE2AE100A7032D /* MissedCallsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E53762ECE2AE100A7032D /* MissedCallsView.swift */; };
+		687E53792ECE2CCB00A7032D /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E53782ECE2CCB00A7032D /* WalletView.swift */; };
+		687E537B2ECE327300A7032D /* SessionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687E537A2ECE327300A7032D /* SessionHistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +37,12 @@
 		681ACAC52EC9E58900EEAAC8 /* OTPVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
 		681ACAC72ECCC7E800EEAAC8 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		681ACAC92ECCCEF800EEAAC8 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		687E53702ECE272E00A7032D /* OrderHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryView.swift; sourceTree = "<group>"; };
+		687E53722ECE288D00A7032D /* GiftHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftHistoryView.swift; sourceTree = "<group>"; };
+		687E53742ECE293E00A7032D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		687E53762ECE2AE100A7032D /* MissedCallsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissedCallsView.swift; sourceTree = "<group>"; };
+		687E53782ECE2CCB00A7032D /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		687E537A2ECE327300A7032D /* SessionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionHistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,12 @@
 				681ACAC52EC9E58900EEAAC8 /* OTPVerificationView.swift */,
 				681ACAC72ECCC7E800EEAAC8 /* RegistrationView.swift */,
 				681ACAC92ECCCEF800EEAAC8 /* MainTabView.swift */,
+				687E53742ECE293E00A7032D /* HomeView.swift */,
+				687E53702ECE272E00A7032D /* OrderHistoryView.swift */,
+				687E53722ECE288D00A7032D /* GiftHistoryView.swift */,
+				687E53762ECE2AE100A7032D /* MissedCallsView.swift */,
+				687E53782ECE2CCB00A7032D /* WalletView.swift */,
+				687E537A2ECE327300A7032D /* SessionHistoryView.swift */,
 				681ACAC32EC9DEDD00EEAAC8 /* Constants.swift */,
 				681ACAB42EC9C06B00EEAAC8 /* Assets.xcassets */,
 				681ACAB92EC9C06B00EEAAC8 /* Persistence.swift */,
@@ -156,12 +174,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				681ACAC42EC9DEDE00EEAAC8 /* Constants.swift in Sources */,
+				687E53772ECE2AE100A7032D /* MissedCallsView.swift in Sources */,
 				681ACAC62EC9E58900EEAAC8 /* OTPVerificationView.swift in Sources */,
 				681ACAC82ECCC7E800EEAAC8 /* RegistrationView.swift in Sources */,
 				681ACABA2EC9C06B00EEAAC8 /* Persistence.swift in Sources */,
 				681ACAB32EC9C06900EEAAC8 /* LoginView.swift in Sources */,
+				687E53732ECE288E00A7032D /* GiftHistoryView.swift in Sources */,
 				681ACACA2ECCCEF800EEAAC8 /* MainTabView.swift in Sources */,
 				681ACABD2EC9C06B00EEAAC8 /* Flute_The_App.xcdatamodeld in Sources */,
+				687E537B2ECE327300A7032D /* SessionHistoryView.swift in Sources */,
+				687E53712ECE272E00A7032D /* OrderHistoryView.swift in Sources */,
+				687E53792ECE2CCB00A7032D /* WalletView.swift in Sources */,
+				687E53752ECE293E00A7032D /* HomeView.swift in Sources */,
 				681ACAB12EC9C06900EEAAC8 /* Flute_The_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
